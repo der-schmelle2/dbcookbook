@@ -55,7 +55,7 @@
         <term><parameter>base.dir</parameter></term>
         <listitem>
           <para>Sets the output directory for all chunks. If not set,
-            the output directory is system dependant. Usually it is the
+            the output directory is system dependent. Usually it is the
             current directory from where you have executed your XSLT processor.
           </para>
         </listitem>
@@ -290,7 +290,7 @@ book         --> html/index.html
       <para>
         By default, only <tag>sect1</tag> elements are written to a file.
         Anything below a <tag>sect1</tag> like <tag>sect2</tag>, <tag>sect3</tag>
-        etc. are written to the same file that contains the <tag>sect1</tag>
+        etc. is written to the same file that contains the <tag>sect1</tag>
         element.
       </para>
       <para> To control the chunking process for sections, use the parameter
@@ -387,7 +387,7 @@ chapter         --> ch01.html
               For example, if you have a chapter about introduction, you could
               set the ID to <tag class="attvalue">intro</tag>. Any sections
               inside this chapter would use it as a prefix and append their
-              own. A section with describes an overview could have an ID
+              own. A section which describes an overview could have an ID
               named <tag class="attvalue">intro.overview</tag>.
               This helps you when you search a specific HTML file.
             </para>
